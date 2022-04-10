@@ -1,6 +1,6 @@
 # _*_ coding: utf-8 _*_
 
-from paho.mqtt.client import Client  #pip3 install paho_mqtt
+from paho.mqtt.client import Client
 
 
 def on_message(mqttc, userdata, msg):
